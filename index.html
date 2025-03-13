@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        
+        <div class="container-header">
+            <a href="#main-content" class="skip-link">Skip to main content</a>
+        <div class="logo">
+        <h1 class="title-1">TIENDA<span class="title-2">MAINLIN</span><span class="version">V 1.9.3</span></h1>
+        </div>
+        <button id="open-sidebar-button" onclick="openSidebar()" aria-label="open sidebar" aria-expanded="false" aria-controls="navbar">
+          <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#c9c9c9"><path d="M165.13-254.62q-10.68 0-17.9-7.26-7.23-7.26-7.23-18t7.23-17.86q7.22-7.13 17.9-7.13h629.74q10.68 0 17.9 7.26 7.23 7.26 7.23 18t-7.23 17.87q-7.22 7.12-17.9 7.12H165.13Zm0-200.25q-10.68 0-17.9-7.27-7.23-7.26-7.23-17.99 0-10.74 7.23-17.87 7.22-7.13 17.9-7.13h629.74q10.68 0 17.9 7.27 7.23 7.26 7.23 17.99 0 10.74-7.23 17.87-7.22 7.13-17.9 7.13H165.13Zm0-200.26q-10.68 0-17.9-7.26-7.23-7.26-7.23-18t7.23-17.87q7.22-7.12 17.9-7.12h629.74q10.68 0 17.9 7.26 7.23 7.26 7.23 18t-7.23 17.86q-7.22 7.13-17.9 7.13H165.13Z"/></svg>
+        </button>
+        </div> 
+    </header>
+    <nav id="navbar">
+      <ul>
+        <li>
+          <button id="close-sidebar-button" onclick="closeSidebar()" aria-label="close sidebar">
+            <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#c9c9c9"><path d="m480-444.62-209.69 209.7q-7.23 7.23-17.5 7.42-10.27.19-17.89-7.42-7.61-7.62-7.61-17.7 0-10.07 7.61-17.69L444.62-480l-209.7-209.69q-7.23-7.23-7.42-17.5-.19-10.27 7.42-17.89 7.62-7.61 17.7-7.61 10.07 0 17.69 7.61L480-515.38l209.69-209.7q7.23-7.23 17.5-7.42 10.27-.19 17.89 7.42 7.61 7.62 7.61 17.7 0 10.07-7.61 17.69L515.38-480l209.7 209.69q7.23 7.23 7.42 17.5.19 10.27-7.42 17.89-7.62 7.61-17.7 7.61-10.07 0-17.69-7.61L480-444.62Z"/></svg>
+          </button>
+        </li>
+        <li class="sub-page-content/home-li"><a class="active-link" aria-current="page" href="index.html"><p class="logo">TIENDA<span>MAILIN</span></p></a></li>
+        <li><a class="accent-link" href="../index.html">Inicio</a></li>
+        <li><a href="sub-page-content/menu/products.html">Productos</a></li>
+        <li><a href="sub-page-content/menu/we.html">Nosotros</a></li>
+        <li><a href="sub-page-content/menu/blog.html">Blog</a></li>
+        <li><a href="sub-page-content/menu/help.html">Ayuda</a></li>
+      </ul>
+    </nav>  </button>
+  
+  <div id="overlay" onclick="closeSidebar()" aria-hidden="true"></div>
+
+
+  <main>
+    <div class="container-all">
+
+        
+
+        <!--CARROUSEL TOP    CARROUSEL TOP    CARROUSEL TOP-->
+        <div class="container-slider">
+            <div class="container-carousel">      
+              <div class="carruseles" id="slider">        
+                <section class="slider-section">
+                  <img class="img" src="img/carrousel/centro de mesa con flores eternas y chocolates_.jpeg">
+                </section>
+                <section class="slider-section">
+                  <img class="img" src="img/carrousel/imanes-1200-amp.jpg">
+                </section>
+                <section class="slider-section">
+                  <img class="img" src="img/carrousel/20160214_005658-1.jpg">
+                </section>
+              </div>
+              <div class="btn-left"><i class='bx bx-chevron-left'></i></div>
+              <div class="btn-right"><i class='bx bx-chevron-right'></i></div>
+        <!--CARROUSEL BOTTOM    CARROUSEL BOTTOM    CARROUSEL BOTTOM-->
+               <div class="carrousel">        
+                   <div class="contenido-horizontal">
+                   <div class="item">
+                       <div class="title"><h1>Souvenirs para 15</h1></div>
+                       <div class="img-carrousel"><img src="img/carrousel/centro de mesa con flores eternas y chocolates_.jpeg" alt="Cartera purpura"></div>
+                   </div>
+                   <div class="item">
+                       <div class="title"><h1>Infantil</h1></div>
+                       <div class="img-carrousel"><img src="img/carrousel/imanes-1200-amp.jpg" alt="Cartera purpura"></div>
+                   </div>
+                   <div class="item">
+                       <div class="title"><h1>Flores decorativas</h1></div>
+                       <div class="img-carrousel"><img src="img/carrousel/20160214_005658-1.jpg" alt="Cartera purpura"></div>
+                   </div>
+                   <div class="item">
+                       <div class="title"><h1>Cajitas decorativas</h1></div>
+                       <div class="img-carrousel"><img src="img/carrousel/Caja-de-regalo-de-goma-eva.webp" alt="Cartera purpura"></div>
+                   </div>
+                   <div class="item">
+                       <div class="title"><h1>Corazones adornadas</h1></div>
+                       <div class="img-carrousel"><img src="img/carrousel/5-corazon color verde.png" alt="Cartera purpura"></div>
+                   </div>
+                   <div class="item">
+                       <div class="title"><h1>Centros de mesa</h1></div>
+                       <div class="img-carrousel"><img src="img/carrousel/6-corazón morado sin fondo.png" alt="Cartera purpura"></div>
+                   </div>
+                   <div class="item">
+                       <div class="title"><h1>Personalización</h1></div>
+                       <div class="img-carrousel"><img src="img/carrousel/7-corazon portada.png" alt="Cartera purpura"></div>
+                   </div>
+                   <div class="item">
+                       <div class="title"><h1>Otros</h1></div>
+                       <div class="img-carrousel"><img src="img/carrousel/8-corazón rosa blanco sin fondo.png" alt="Cartera purpura"></div>
+                   </div>
+                   </div>
+               </div>            
+            </div>
+        </div>
+
+        <div class="article">
+
+            <div class="box-article">
+                <div class="img-box">
+                    <a href="sub-page-content/shopping-interface/compra.html">
+                    <img src="img/thumbnails/cartera morado 1.png" alt="">
+                    </a>
+                </div>
+                <a href="sub-page-content/shopping-interface/compra.html">
+                <div class="container-box">                            
+                    <div class="container-price">
+                        <h4>1.000</h4>
+                    </div>
+                    <div class="container-info">                                
+                        <p>Carterita para decorar</p>
+                    </div></a>                            
+                    <a href="sub-page-content/shopping-interface/pricing.html"><div class="container-buy"><h5>Más Info</h5></div></a>
+                </div>
+            </div>
+            
+            <div class="box-article">
+                <div class="img-box">
+                    <a href="sub-page-content/shopping-interface/corazon-morado.html">
+                    <img src="img/thumbnails/corazon color morado.png" alt="">
+                    </a>
+                </div>
+                <a href="sub-page-content/shopping-interface/corazon-morado.html">
+                <div class="container-box">                            
+                    <div class="container-price">
+                        <h4>1.500</h4>
+                    </div>
+                    <div class="container-info">                                
+                        <p>Caja | Corazón | violeta</p>
+                    </div></a>                            
+                    <a href="sub-page-content/shopping-interface/corazon-morado.html"><div class="container-buy"><h5>Más Info</h5></div></a>
+                </div>
+            </div>
+            
+            <div class="box-article">
+                <div class="img-box">
+                    <a href="sub-page-content/shopping-interface/corazon-verde-small.html">
+                    <img src="img/thumbnails/corazon color verde.png" alt="">
+                    </a>
+                </div>
+                <a href="sub-page-content/shopping-interface/corazon-verde-small.html">
+                <div class="container-box">                            
+                    <div class="container-price">
+                        <h4>1.500</h4>
+                    </div>
+                    <div class="container-info">                                
+                        <p>Caja | Corazón | verde</p>
+                    </div></a>                            
+                    <a href="sub-page-content/shopping-interface/corazon-verde-small.html"><div class="container-buy"><h5>Más Info</h5></div></a>
+                </div>
+            </div>
+            
+            <div class="box-article">
+                <div class="img-box">
+                    <a href="sub-page-content/shopping-interface/corazon-base.html">
+                    <img src="img/thumbnails/corazon portada.png" alt="">
+                    </a>
+                </div>
+                <a href="sub-page-content/shopping-interface/corazon-base.html">
+                <div class="container-box">                            
+                    <div class="container-price">
+                        <h4>1.500</h4>
+                    </div>
+                    <div class="container-info">                                
+                        <p>Corazón para decorar</p>
+                    </div></a>                            
+                    <a href="sub-page-content/shopping-interface/corazon-base.html"><div class="container-buy"><h5>Más Info</h5></div></a>
+                </div>
+            </div>
+
+            <!--///////////////////////////////////////////////////////////////-->
+           
+            <div class="box-article">
+
+                <div class="img-box">
+                    <a href="sub-page-content/shopping-interface/flor.html">
+                    <img src="img/thumbnails/flor roja.png" alt="">
+                    </a>
+                </div>
+
+                <a href="sub-page-content/shopping-interface/flor.html">
+                <div class="container-box">                            
+                    <div class="container-price">
+                        <h4>1.000</h4>
+                    </div>
+                    <div class="container-info">                                
+                        <p>Rosa para decoración</p>
+                    </div></a>                            
+                    <a href="sub-page-content/shopping-interface/flor.html"><div class="container-buy"><h5>Más Info</h5></div></a>
+                </div>
+            </div>
+
+            <div class="box-article">
+
+                <div class="img-box">
+                    <a href="sub-page-content/shopping-interface/tasita.html">
+                    <img src="img/thumbnails/tasita con flores 1.png" alt="">
+                    </a>
+                </div>
+
+                <a href="sub-page-content/shopping-interface/tasita.html">
+                <div class="container-box">                            
+                    <div class="container-price">
+                        <h4>700</h4>
+                    </div>
+                    <div class="container-info">                                
+                        <p>Tasita para decorar</p>
+                    </div></a>                            
+                    <a href="sub-page-content/shopping-interface/tasita.html"><div class="container-buy"><h5>Más Info</h5></div></a>
+                </div>
+            </div>
+
+            
+            <div class="box-article">
+
+                <div class="img-box">
+                    <a href="sub-page-content/shopping-interface/vici.html">
+                    <img src="img/thumbnails/vici 1.png" alt="">
+                    </a>
+                </div>
+
+                <a href="sub-page-content/shopping-interface/vici.html">
+                <div class="container-box">                            
+                    <div class="container-price">
+                        <h4>1.500</h4>
+                    </div>
+                    <div class="container-info">                                
+                        <p>Mini vicicleta florero</p>
+                    </div></a>                            
+                    <a href="sub-page-content/shopping-interface/vici.html"><div class="container-buy"><h5>Más Info</h5></div></a>
+                </div>
+            </div>
+            
+            <div class="box-article">
+
+                <div class="img-box">
+                    <a href="sub-page-content/shopping-interface/llavero-corazon.html">
+                    <img src="img/thumbnails/flor llavero.png" alt="">
+                    </a>
+                </div>
+
+                <a href="sub-page-content/shopping-interface/llavero-corazon.html">
+                <div class="container-box">                            
+                    <div class="container-price">
+                        <h4>1.500</h4>
+                    </div>
+                    <div class="container-info">                                
+                        <p>Corazón para decorar</p>
+                    </div></a>                            
+                    <a href="sub-page-content/shopping-interface/llavero-corazon.html"><div class="container-buy"><h5>Más Info</h5></div></a>
+                </div>
+            </div>
+
+            <!--///////////////////////////////////////////////////////////////-->
+        
+            <div class="box-article">
+
+                <div class="img-box">
+                    <a href="sub-page-content/shopping-interface/pricing.html">
+                    <img src="img/thumbnails/corazón morado sin fondo.png" alt="">
+                    </a>
+                </div>
+
+                <a href="sub-page-content/shopping-interface/pricing.html">
+                <div class="container-box">                            
+                    <div class="container-price">
+                        <h4>1.500</h4>
+                    </div>
+                    <div class="container-info">                                
+                        <p>Caja | Corazón | morado</p>
+                    </div></a>                            
+                    <a href="sub-page-content/shopping-interface/pricing.html"><div class="container-buy"><h5>Más Info</h5></div></a>
+                </div>
+            </div>
+            
+            <div class="box-article">
+
+                <div class="img-box">
+                    <a href="sub-page-content/shopping-interface/pricing.html">
+                    <img src="img/thumbnails/corazón verde.png" alt="">
+                    </a>
+                </div>
+
+                <a href="sub-page-content/shopping-interface/pricing.html">
+                <div class="container-box">                            
+                    <div class="container-price">
+                        <h4>1.500</h4>
+                    </div>
+                    <div class="container-info">                                
+                        <p>Caja | Corazón | Verde</p>
+                    </div></a>                            
+                    <a href="sub-page-content/shopping-interface/pricing.html"><div class="container-buy"><h5>Más Info</h5></div></a>
+                </div>
+            </div>
+            
+            <!--///////////////////////////////////////////////////////////////-->
+            
+            <div class="box-article">
+
+                <div class="img-box">
+                    <a href="sub-page-content/shopping-interface/pricing.html">
+                    <img src="img/thumbnails/corazón rosa blanco sin fondo.png" alt="">
+                    </a>
+                </div>
+
+                <a href="sub-page-content/shopping-interface/pricing.html">
+                <div class="container-box">                            
+                    <div class="container-price">
+                        <h4>1.500</h4>
+                    </div>
+                    <div class="container-info">                                
+                        <p>Caja | Corazón | Rosa blanco</p>
+                    </div></a>                            
+                    <a href="sub-page-content/shopping-interface/pricing.html"><div class="container-buy"><h5>Más Info</h5></div></a>
+                </div>
+            </div>
+            
+            <div class="box-article">
+
+                <div class="img-box">
+                    <a href="sub-page-content/shopping-interface/pricing.html">
+                    <img src="img/thumbnails/corazón amarillo.png" alt="">
+                    </a>
+                </div>
+
+                <a href="sub-page-content/shopping-interface/pricing.html">
+                <div class="container-box">                            
+                    <div class="container-price">
+                        <h4>1.500</h4>
+                    </div>
+                    <div class="container-info">                                
+                        <p>Caja | Corazón | amarillo</p>
+                    </div></a>                            
+                    <a href="sub-page-content/shopping-interface/pricing.html"><div class="container-buy"><h5>Más Info</h5></div></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+</body>
+</html>
