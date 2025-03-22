@@ -600,13 +600,98 @@ button.buy{
     position: absolute;
     bottom: 1.5%;
 }
+
+
 footer.container-footer{
   color: white;
   width: 100%;
   height: 250px;
   bottom: 0;
-  background-color: #d2d2d2;
+  margin-top: 30px;
+  background-color: #171717;
   flex-direction: column;
+}
+
+.header-footer{
+  width: 100%;
+}
+
+/**
+CARROUSEL   CARROUSEL   CARROUSEL   CARROUSEL   CARROUSEL
+**/
+
+.carrousel-footer {
+  width: 100%; /* Ancho del contenedor */
+  margin: 0;
+  padding: 17px;
+  overflow-x: auto; /* Habilita el desplazamiento horizontal */
+  white-space: nowrap; /* Evita que el contenido se envuelva */
+  display: flex;
+  position: relative;
+  box-sizing: border-box;
+  background-color: #171717;
+}
+
+.carrousel-footer::-webkit-scrollbar {
+  display: none; /* Oculta la barra de scroll en navegadores WebKit */
+}
+
+.carrousel-footer {
+  -ms-overflow-style: none; /* Oculta la barra de scroll en IE y Edge */
+  scrollbar-width: none; /* Oculta la barra de scroll en Firefox */
+}
+
+.horizontal-footer {
+  width: 100%;
+  display: inline-block; /* Permite que el contenido se desplace horizontalmente */
+  justify-content: space-between;
+}
+
+.item {
+  display: inline-block;
+  width: 100px; /* Ancho de cada elemento */
+  height: auto; /* Altura de cada elemento */
+  background-color: #f0f0f0;
+  border: 1px solid #020910;
+  border-radius: 10px;
+  margin: 0 6.5px auto;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.title h1{
+  width: 100%;
+  height: 18%;
+  background-color: black;
+  border-radius: 10px 10px 0 0;
+  padding: 5px;
+  letter-spacing: 1px;
+  height: auto;
+  text-align: center;
+  color:#0071FF;
+  font-size: 11.5px;
+  text-wrap: balance;   /**  ajusta el texto para no sobrepasar en los bordes del contenedor  **/
+}
+.title h1{
+  width: auto;
+  height: auto;
+}
+.img-carrousel img{
+  width: 100%;
+  height: 120px;
+  margin: 0;
+  padding: 0;
+  background-color:#cececf ;
+  object-fit: cover;
+  border-radius: 0 0 10px 10px;
+
+}
+
+.content-footer p{
+  margin: 5px 0 5px 0 ;
+  padding: 20px;
+  background-color: rgb(17, 16, 16);
+  color: cyan;
 }
 
 }
