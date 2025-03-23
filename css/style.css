@@ -653,7 +653,7 @@ CARROUSEL   CARROUSEL   CARROUSEL   CARROUSEL   CARROUSEL
   letter-spacing: 1px;
   height: auto;
   text-align: center;
-  color:#0071FF;
+  color: DarkCyan;
   font-size: 11.5px;
   text-wrap: balance;   /**  ajusta el texto para no sobrepasar en los bordes del contenedor  **/
 }
@@ -672,11 +672,21 @@ CARROUSEL   CARROUSEL   CARROUSEL   CARROUSEL   CARROUSEL
 
 }
 
-.content-footer p{
+.content-footer .parrafo-footer{
   margin: 5px 0 5px 0 ;
   padding: 20px;
   background-color: rgb(17, 16, 16);
   color: cyan;
+}
+span.p1{
+  font-family: 'Segoe UI';
+  color: #fff;
+  font-weight: 500;
+}
+span.p2{
+  font-family: 'Segoe UI';
+  color: '';
+  font-weight: 800;
 }
 }
 
