@@ -292,13 +292,18 @@ button.buy:hover{
   display: flex;
 }
 .logo{
-  margin-left: 8px;
+  width: 100%;
+  height: auto;
 }
-h1.title-1, span.title-2{  
+h1{
+  padding-left: 05%;
+}
+.title-1, span.title-2{  
   align-content: center;
 }
-.logo, h1.title-1{
-  width: auto;
+
+.logo, .title-1{
+  width: 100%;
   height:100%;
   font-weight: 12px;
   color: rgb(230, 230, 232);
@@ -600,17 +605,17 @@ button.buy{
     border: 1px solid;
     background-color: #0071FF;
     position: absolute;
-    bottom: 15%;
+    bottom: 3%;
     font-size: 22px;
     font-weight: 650;
     letter-spacing: 1.5px;
-    color: rgb(191, 191, 191);
+    color: rgb(227, 224, 224);
 }
 
 /**BUTTON PAGE    BUTTON PAGE   BUTTON PAGE   BUTTON PAGE BUTTON PAGE**/
 .container-button-page{
   width: 100%;
-  height: 80px;
+  height: auto;
   margin: 12px auto;
   border: 1px solid var(--accent-color);
   border-radius: 17px;
@@ -619,10 +624,12 @@ button.buy{
 }
 .page-button{
   width: auto;
-  height: 100%;
+  height: auto;
   margin: 0 4px auto;
   justify-items: center;
   align-content: center;
+  border-radius: 100%;
+  margin: 5px;
 }
 h1.title-button:hover{
   background-color: rgb(126, 164, 164);
@@ -647,13 +654,18 @@ h1.title-button, .title-button-selected{
 }
 
 
-
+.container-footer{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: #131313;
+}
 .header-footer{
   width: 100%;
 }
 
 /**
-CARROUSEL   CARROUSEL   CARROUSEL   CARROUSEL   CARROUSEL
+CARROUSEL FOOTER   CARROUSEL FOOTER   CARROUSEL FOOTER   CARROUSEL FOOTER   CARROUSEL FOOTER
 **/
 
 .carrousel-footer {
@@ -720,11 +732,12 @@ CARROUSEL   CARROUSEL   CARROUSEL   CARROUSEL   CARROUSEL
   background-color:#cececf ;
   object-fit: cover;
   border-radius: 0 0 10px 10px;
-
 }
 
+/**  FOOTER   FOOTER    FOOTER    FOOTER    FOOTER    FOOTER  **/
+
 .content-footer p{
-  margin: 5px 0 5px 0 ;
+  margin: 0;
   padding: 20px;
   background-color: rgb(17, 16, 16);
   color: Darkcyan;
