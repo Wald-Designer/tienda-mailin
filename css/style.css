@@ -292,13 +292,17 @@ button.buy:hover{
   display: flex;
 }
 .logo{
-  margin-left: 8px;
+  width: 100%;
+  height: auto;
+}
+h1{
+  padding-left: 05%;
 }
 h1.title-1, span.title-2{  
   align-content: center;
 }
 .logo, h1.title-1{
-  width: auto;
+  width: 100%;
   height:100%;
   font-weight: 12px;
   color: rgb(230, 230, 232);
